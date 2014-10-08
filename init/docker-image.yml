@@ -1,0 +1,6 @@
+---
+- name: install cowsay
+  hosts: local
+  tasks:
+    - yum: name=cowsay state=present
+
